@@ -1,0 +1,240 @@
+.header{
+    background-color: #0d253f;
+    height: 64px;
+}
+.header_container{
+    display: flex;
+    width: 100%;
+    height: 64px;
+    line-height: 64px;
+    justify-content: space-between;
+}
+.header_nav_start{
+    display: flex;
+}
+
+.header_logo {
+    height: 20px;
+    width: 154px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header_nav li{
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.header_nav li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.header_nav{
+    display: flex;
+}
+.movie_more:hover .movie_hover,
+.TVshows_more:hover .TVshows_hover,
+.people_more:hover .people_hover,
+.more_more:hover .more_hover{
+    display: block;
+}
+.movie_hover,
+.TVshows_hover,
+.people_hover,
+.more_hover{
+    position: absolute;
+    background-color: #fff;
+    padding:0 ;
+    top: 50px;
+    border-radius: 5px;
+    padding: 5px 0;
+    display: none;
+}
+.movie_hover li,
+.TVshows_hover li,
+.people_hover li,
+.more_hover li{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding: 0;
+    height: 30px;
+}
+.movie_hover li:hover,
+.TVshows_hover li:hover,
+.people_hover li:hover,
+.more_hover  li:hover{
+    background-color: #f5f5f565;
+}
+.movie_hover li a,
+.TVshows_hover li a,
+.people_hover li a,
+.more_hover li a{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    color: black;
+    font-weight: normal;
+    width: 100%;
+    padding: 0px 60px 0px 20px;
+}
+
+.translate{
+    color: #fff;
+    font-weight: bold;
+}
+.fa-plus{
+    color: #fff;
+}
+.fa-search{
+    color: #01b0df;
+}
+
+.banner{
+    height: 300px;
+    background: rgb(14,181,222);
+    background: linear-gradient(86deg, rgba(14,181,222,1) 30%, rgba(92,196,185,1) 100%);
+    color: #fff;
+}
+
+.banner_main{
+    padding: 40px 30px;
+}
+
+.banner_main_search{
+    display: flex;
+    width: 100%;
+    border-radius: 30px;
+    background-color: #fff;
+    margin-top: 58px;
+}
+.banner_main_text{
+    width: 100%;
+    height: 46px;
+    line-height: 46px;
+    font-size: 1.1em;
+    color: rgba(0,0,0,0.5);
+    border: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+   
+}
+.banner_main_text:focus{
+    outline: 0;
+}
+#banner_main_submit{
+    display: inline-flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 46px;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #0d253f;
+}
+.category{
+    display: flex;
+    padding: 0;
+    width: 100%;
+    background-color: #0d253f;
+    
+}
+div.sticky{
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    z-index: 3;
+}
+.category li{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.category li a{
+    color: #51c2be;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.active{
+    color: rgb(238, 218, 42)!important;
+}
+
+
+.movie_img{
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+.fa-star{
+    color: rgb(237, 192, 29);
+}
+
+.movie_info h4{
+    cursor: pointer;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+#top_rates_main,
+#movie_theatres_main,
+#kid_main{
+    flex-wrap: nowrap;
+}
+
+.MS-content{
+    overflow: hidden;
+    white-space: nowrap; 
+}
+#multi-slider,
+#theatres-slider,
+#kid-slider{
+    position: relative;
+}
+.item {
+    display: inline-block;   
+    width: 20%;              
+    position: relative;      
+    vertical-align: top;     
+    overflow: hidden;        
+    height: 100%;            
+    white-space: normal;
+    transition: transform 0.5s ease;
+}
+    
+.MS-controls button {
+    position: absolute;
+    top: 110px;
+    border: none;
+    font-size: 30px;
+    color: #0d253f;
+    background-color: #01b0df;
+}
+
+.MS-controls .MS-right {
+    right: 0px;
+}
+
+#popular_main .col-2{
+    padding-top: 20px;
+}
+
+.footer{
+    padding: 100px 0;
+    margin-top: 30px;
+    background-color: #0d253f;
+    color: #fff;
+}
+.footer ul li{
+    list-style: none;
+}
+.footer ul li a{
+    color: #fff;
+    text-decoration: none;
+}
