@@ -1,4 +1,4 @@
-const topRatesApi = "https://api.themoviedb.org/3/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=07df55c2a008a76039b5e2e7c8900ed4";
+const topRatesApi = "http://api.themoviedb.org/3/discover/movie/?certification_country=US&certification=R&sort_by=vote_average.desc&api_key=07df55c2a008a76039b5e2e7c8900ed4";
 const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 
 
